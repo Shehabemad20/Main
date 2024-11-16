@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "DocDoc Development",
+        "request": "launch",
+        "type": "dart",
+        "program": "D:/Complete_project/completeproject/lib/main_development.dart",
+        "args": ["--flavor", "Development", "--target", "D:/Complete_project/completeproject/lib/main_development.dart"]
+      },
+      {
+        "name": "DocDoc Production",
+        "request": "launch",
+        "type": "dart",
+        "program": "D:/Complete_project/completeproject/lib/main_production.dart",
+        "args": ["--flavor", "Production", "--target", "D:/Complete_project/completeproject/lib/main_production.dart"]
+      }
+    ],
+    
+    "compounds": []
+  }
+  
